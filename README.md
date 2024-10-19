@@ -171,11 +171,11 @@ Once configured, it is build with the following command. The compilation can be 
 
 ```
 ./waf [mode=release/debug]
-Waf: Entering directory `/home/administrator/<FOLDER>/build'
+Waf: Entering directory `/home/user/<FOLDER>/build'
 building
-[ 1/25] Compiling src/Solver_escenario1.cpp
-[ 2/25] Compiling src/BSfisica.cpp
-[ 3/25] Compiling src/Algoritmo2.cpp
+[ 1/21] Compiling src/SolverScen22.cpp
+[ 2/21] Compiling src/Log.cpp
+[ 3/21] Compiling src/Algorithm3.cpp
 ...
 ```
 
