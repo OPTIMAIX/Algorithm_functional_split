@@ -1,0 +1,90 @@
+{
+    "FS": 1,
+    "V": 5e3,
+    "CompLoad":18,
+    "BS":[
+        {
+            "id":"BS1",
+            "resources":100
+        },
+        {
+            "id":"BS2",
+            "resources":100
+        }
+        
+    ],
+    "Zones":[
+        {
+            "id":"Zone01",
+            "BS":["BS1"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[1,5],
+            "TargetThroughput":10,
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"   
+        },
+
+        {
+            "id":"Zone02",
+            "BS":["BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[1,5],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone03",
+            "BS":["BS1", "BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[1,5],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone04",
+            "BS":["BS1"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[1,5],
+            "TargetThroughput": 10,
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal2"   
+        },
+
+        {
+            "id":"Zone05",
+            "BS":["BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[1,5],
+            "TargetThroughput": 10,
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone06",
+            "BS":["BS1", "BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[1,5],
+            "TargetThroughput": 10,
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal2"
+        }
+
+    ],
+
+    "Algorithm": [
+        {
+            "id":"Algorithm4"
+        }
+    ],
+
+    "Iterations": [
+        {
+            "Number":10
+        }
+    ]
+}

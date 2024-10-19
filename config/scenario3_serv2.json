@@ -1,0 +1,244 @@
+{
+    "FS": 1,
+    "V": 5e3,
+    "CompLoad":18,
+    "BS":[
+        {
+            "id":"BS1",
+            "resources":100
+        },
+        {
+            "id":"BS2",
+            "resources":100
+        },
+        {
+            "id":"BS3",
+            "resources":100
+        },
+        {
+            "id":"BS4",
+            "resources":100
+        },
+        {
+            "id":"BS5",
+            "resources":100
+        },
+        {
+            "id":"BS6",
+            "resources":100
+        }
+        
+    ],
+
+    "Zones":[
+        {
+            "id":"Zone01",
+            "BS":["BS1"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone02",
+            "BS":["BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone03",
+            "BS":["BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+        {
+            "id":"Zone04",
+            "BS":["BS1","BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone05",
+            "BS":["BS2", "BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone06",
+            "BS":["BS1", "BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone07",
+            "BS":["BS1", "BS2", "BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone08",
+            "BS":["BS1", "BS4"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone09",
+            "BS":["BS2", "BS5"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone10",
+            "BS":["BS3", "BS6"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal1"
+        },
+
+        {
+            "id":"Zone11",
+            "BS":["BS1"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":0, 
+            "MinThroughput": 0, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone12",
+            "BS":["BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":0, 
+            "MinThroughput": 0, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone13",
+            "BS":["BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":0, 
+            "MinThroughput": 0, 
+            "GlobalService":"ServGlobal2"
+        },
+        {
+            "id":"Zone14",
+            "BS":["BS1","BS2"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":0, 
+            "MinThroughput": 0, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone15",
+            "BS":["BS2", "BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":0, 
+            "MinThroughput": 0, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone16",
+            "BS":["BS1", "BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":0, 
+            "MinThroughput": 0, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone17",
+            "BS":["BS1", "BS2", "BS3"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":0, 
+            "MinThroughput": 0, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone18",
+            "BS":["BS1", "BS4"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone19",
+            "BS":["BS2", "BS5"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal2"
+        },
+
+        {
+            "id":"Zone20",
+            "BS":["BS3", "BS6"],
+            "SignalRange":[1,81],
+            "InterferenceRange":[11,15],
+            "TargetThroughput":10, 
+            "MinThroughput": 1, 
+            "GlobalService":"ServGlobal2"
+        }
+    ],
+
+    "Algorithm": [
+        {
+            "id":"Algorithm4"
+        }
+    ],
+
+    "Iterations": [
+        {
+            "Number":2
+        }
+    ]
+}
