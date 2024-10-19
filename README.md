@@ -56,9 +56,9 @@ The code structure is shown below. It contains the followig folders:
 The configuration files keep the information that represent the scenarios shown below: 
 
 
-<img style="float: right;" src="./docs/escenario1.png" alt="Scenario1" width="200"/>
-<img style="float: right;" src="./docs/escenario2.png" alt="drawing" width="200"/>
-<img style="float: right;" src="./docs/escenario3.png" alt="drawing" width="200"/>
+<img style="float: right;" src="./docs/escenario1.png" alt="Scenario1" width="100"/>
+<img style="float: right;" src="./docs/escenario2.png" alt="drawing" width="100"/>
+<img style="float: right;" src="./docs/escenario3.png" alt="drawing" width="100"/>
 <center>Canonical scenarios analyzed</center>
 
 A reduced example of a configuration file is shown below. It contains the following main fileds:
