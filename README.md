@@ -57,7 +57,7 @@ The configuration files keep the information that represent the scenarios shown 
 
 ![](./docs/escenario1.png)           |  ![](./docs/escenario2.png)         |![](./docs/escenario3.png)
 :---: |:---: |:---: 
-<center>Canonical scenarios analyzed</center>
+
 
 A reduced example of a configuration file is shown below. It contains the following main fileds:
 - *FS*: number of functional splits considered in the scenario. It is used or not depending on the algorithm.
