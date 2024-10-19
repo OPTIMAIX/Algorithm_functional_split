@@ -33,23 +33,7 @@ The code structure is shown below. It contains the followig folders:
 ├── include
 │   ├── Algorithm1.h
 │   ├── Algorithm2.h
-│   ├── Algorithm3.h
-│   ├── Algorithm4.h
-│   ├── Algorithm5.h
-│   ├── AlgorithmBase.h
-│   ├── Common.h
-│   ├── json.h
-│   ├── Log.h
-│   ├── Master.h
-│   ├── PhyBaseStation.h
-│   ├── RandGenerator.h
-│   ├── Service.h
-│   ├── SolverScen11.h
-│   ├── SolverScen1.h
-│   ├── SolverScen22.h
-│   ├── SolverScen2.h
-│   ├── SolverScen33.h
-│   ├── SolverScen3.h
+...
 │   ├── VirtualBaseStation.h
 │   └── Zone.h
 ├── programs
@@ -60,21 +44,7 @@ The code structure is shown below. It contains the followig folders:
 ├── src
 │   ├── Algorithm1.cpp
 │   ├── Algorithm2.cpp
-│   ├── Algorithm3.cpp
-│   ├── Algorithm4.cpp
-│   ├── Algorithm5.cpp
-│   ├── AlgorithmBase.cpp
-│   ├── Log.cpp
-│   ├── Master.cpp
-│   ├── PhyBaseStation.cpp
-│   ├── RandGenerator.cpp
-│   ├── Service.cpp
-│   ├── SolverScen11.cpp
-│   ├── SolverScen1.cpp
-│   ├── SolverScen22.cpp
-│   ├── SolverScen2.cpp
-│   ├── SolverScen33.cpp
-│   ├── SolverScen3.cpp
+...
 │   ├── VirtualBaseStation.cpp
 │   ├── wscript
 │   └── Zone.cpp
@@ -85,9 +55,10 @@ The code structure is shown below. It contains the followig folders:
 
 The configuration files keep the information that represent the scenarios shown below: 
 
-<img src="./docs/escenario1.png" alt="Scenario1" width="200"/>
-<img src="./docs/escenario2.png" alt="drawing" width="200"/>
-<img src="./docs/escenario3.png" alt="drawing" width="200"/>
+
+<img style="float: right;" src="./docs/escenario1.png" alt="Scenario1" width="200"/>
+<img style="float: right;" src="./docs/escenario2.png" alt="drawing" width="200"/>
+<img style="float: right;" src="./docs/escenario3.png" alt="drawing" width="200"/>
 <center>Canonical scenarios analyzed</center>
 
 A reduced example of a configuration file is shown below. It contains the following main fileds:
